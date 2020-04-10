@@ -5,16 +5,16 @@
   :defsystem-depends-on (:bodge-blobs-support)
   :class :bodge-blob-system
   :libraries (((:darwin :x86-64) "libogg.0.dylib" "x86_64/")
-              ((:darwin :x86-64) "libFLAC.8.dylib.dylib" "x86_64/")
+              ((:darwin :x86-64) "libFLAC.8.dylib" "x86_64/")
               ((:darwin :x86-64) "libvorbis.0.dylib" "x86_64/")
-              ((:darwin :x86-64) "libvorbisenc.2.dylib.dylib" "x86_64/")
+              ((:darwin :x86-64) "libvorbisenc.2.dylib" "x86_64/")
               ((:darwin :x86-64) "libopus.0.dylib" "x86_64/")
               ((:darwin :x86-64) "libsndfile.0.dylib" "x86_64/")
 
               ((:darwin :x86) "libogg.0.dylib" "x86/")
-              ((:darwin :x86) "libFLAC.8.dylib.dylib" "x86/")
+              ((:darwin :x86) "libFLAC.8.dylib" "x86/")
               ((:darwin :x86) "libvorbis.0.dylib" "x86/")
-              ((:darwin :x86) "libvorbisenc.2.dylib.dylib" "x86/")
+              ((:darwin :x86) "libvorbisenc.2.dylib" "x86/")
               ((:darwin :x86) "libopus.0.dylib" "x86/")
               ((:darwin :x86) "libsndfile.0.dylib" "x86/")
 

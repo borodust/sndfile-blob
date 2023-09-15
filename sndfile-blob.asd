@@ -33,6 +33,20 @@
               ((:unix (:not :darwin) :x86) "libopus.so.0" "x86/")
               ((:unix (:not :darwin) :x86) "libsndfile.so" "x86/")
 
+              ((:unix (:not :darwin) :ppc64 :big-endian) "libogg.so.0" "ppc64/")
+              ((:unix (:not :darwin) :ppc64 :big-endian) "libFLAC.so.8" "ppc64/")
+              ((:unix (:not :darwin) :ppc64 :big-endian) "libvorbis.so.0" "ppc64/")
+              ((:unix (:not :darwin) :ppc64 :big-endian) "libvorbisenc.so.2" "ppc64/")
+              ((:unix (:not :darwin) :ppc64 :big-endian) "libopus.so.0" "ppc64/")
+              ((:unix (:not :darwin) :ppc64 :big-endian) "libsndfile.so" "ppc64/")
+
+              ((:unix (:not :darwin) :ppc64 :little-endian) "libogg.so.0" "ppc64le/")
+              ((:unix (:not :darwin) :ppc64 :little-endian) "libFLAC.so.8" "ppc64le/")
+              ((:unix (:not :darwin) :ppc64 :little-endian) "libvorbis.so.0" "ppc64le/")
+              ((:unix (:not :darwin) :ppc64 :little-endian) "libvorbisenc.so.2" "ppc64le/")
+              ((:unix (:not :darwin) :ppc64 :little-endian) "libopus.so.0" "ppc64le/")
+              ((:unix (:not :darwin) :ppc64 :little-endian) "libsndfile.so" "ppc64le/")
+
 
               ((:windows :x86-64) "libogg-0.dll" "x86_64/")
               ((:windows :x86-64) "libFLAC-8.dll" "x86_64/")
